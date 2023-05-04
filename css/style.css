@@ -1,0 +1,165 @@
+*{
+    font-family: Helvetica;
+}
+/*.marge{
+    display: flex;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    align-items: baseline;
+    justify-content: flex-end;
+}*/
+body{
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 2px ;
+}
+
+.logo img{
+    width: 200px;
+    height: auto;
+}
+.logo h3{
+    background-color: rgb(11, 72, 146) ;
+    height: auto;
+    text-align: center;
+    color: white;
+    margin:0px;
+}
+.une{
+    display: flex;
+    margin: 0;
+}
+.une img{
+    width: 230px;
+    height: 200px;
+    padding-top:40px ;
+    padding-left: 40px;
+}
+.une p{
+   font-size: 10px;
+   font-style: italic;
+   transform: rotate(180deg);
+   writing-mode: vertical-lr;
+   margin-bottom:30px;
+   margin-right: 40px;
+   margin-left: 0;
+}
+.texte h3{
+    background-color: rgb(11, 72, 146) ;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    margin: 0;
+}
+
+.texte p{
+    font-size: 32px;
+}
+.band{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-top: 1px black solid;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.sidebarre{
+	width: 200px;
+	height:100%;
+	margin-right:px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sidebarre p{
+    font-size: 22px;
+}
+.un{
+    border-bottom: 1px black solid;
+}
+.leun{
+    display: flex;
+}
+.leun p{
+    font-size: 10px;
+    font-style: italic;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    margin: 0;
+}
+.deux{
+    border-bottom: 1px black solid;
+}
+.trois{
+    padding-top: 30px;
+}
+.letrois{
+    display: flex;
+}
+.letrois p{
+    font-size: 10px;
+    font-style: italic;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    margin: 0;
+}
+.trois p{
+    margin-bottom: 0%;
+}
+.article {
+    width: 100%;
+    margin-left: 22px;
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    flex-direction: column-reverse;
+}
+.textarticle{
+    position: absolute;
+    color: white;
+    margin-left: 10px;
+}
+.textarticle h1{
+    font-size: 60px;
+    margin-bottom: 0x;
+    margin-bottom: 0;
+}
+.textarticle p{
+    font-size: 20px;
+    margin-top: 0;
+}
+.article img{
+    max-width: 100%;
+    height: 100%;
+    position: relative; 
+}
+footer{
+    display: flex;
+}
+footer p{
+    font-size: 20px;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    margin: 0;
+}
+footer img{
+    display: block;
+    width: 100%;
+    height: 150px;
+    padding-top: 2px;
+    border-top: 1px black solid;
+}
